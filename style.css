@@ -1,0 +1,42 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+/* colors:
+buttons: #85CBEB
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.opening {
+  font-size: 18px;
+}
+
+.main-button {
+  margin-top: 80px;
+}
+
+.button1 {
+  padding: 20px 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #85CBEB;
+  border: 1px solid #85CBEB;
+  border-radius: 4px;
+}
+
+.button1:hover {
+  color: #85CBEB;
+  background-color: white;
+}
