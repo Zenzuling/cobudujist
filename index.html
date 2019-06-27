@@ -10,8 +10,23 @@
   <body>
     <h1>Co budu jíst?</h1>
     <p class="opening">Nebaví mě neustále zdlouhavě vymýšlet, co budu dnes jíst. Nechám si poradit!</p>
-    <div class="main-button">
-      <a class="button1" href="#">Chci se najíst</a>
-    </div>
+    <!-- <div class="main-button">
+      <a class="button-forward" href="#">Chci se najíst</a>
+    </div> -->
+    <script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*2)
+    var links=new Array()
+    links[0]="recept1.html"
+    links[1]="recept2.html"
+    links[2]="recept3.html"
+
+    window.location=links[myrandom]
+}
+</script>
+<form>
+<input type="button" value="Chci jíst!" onClick="randomlinks()">
+</form>
+
   </body>
 </html>
