@@ -10,6 +10,27 @@
   <body>
     <h2>Běž vařit!</h2>
     <p><a class="recipe-name" href="https://kitchenette.cz/clanek/130-svedske-masove-kulicky">Švédské masové kuličky</a></p>
-    <p><a class="button-back" href="index.html">Tohle nechci, zkusím to znovu</a></p>
+    
+    <script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*10)
+    var links=new Array()
+    links[0]="recept1.html"
+    links[1]="recept2.html"
+    links[2]="recept3.html"
+    links[3]="recept4.html"
+    links[4]="recept5.html"
+    links[5]="recept6.html"
+    links[6]="recept7.html"
+    links[7]="recept8.html"
+    links[8]="recept9.html"
+    links[9]="recept10.html"
+    links[10]="recept11.html"
+
+    window.location=links[myrandom]
+}
+    </script>
+
+    <p><a class="button-back" href="#" onClick="randomlinks()">Tohle nechci, zkusím to znovu</a></p>
   </body>
 </html>
